@@ -1,0 +1,16 @@
+name: insightpilot
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - fastapi
+      - uvicorn
+      - langchain
+      - langgraph
+      - langchain-ollama
+      - langchain-community
+      - duckduckgo-search
+      - agno-websearch
