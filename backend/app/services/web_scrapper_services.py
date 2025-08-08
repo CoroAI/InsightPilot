@@ -4,9 +4,6 @@ scrape_to_rag.py
 
 Scrape HTML + PDFs -> Clean -> Chunk -> Embed -> FAISS -> RAG (HuggingFace)
 
-Usage:
-    python scrape_to_rag.py "business summary here"
-
 Notes:
 - Recommended to run in a virtualenv and install the requirements below.
 - Works on CPU; GPU will speed up embedding and generation if available.
